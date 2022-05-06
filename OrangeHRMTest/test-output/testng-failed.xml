@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Orange HRM Test ]">
+  <listeners>
+    <listener class-name="com.UtilsLayer.ExtentReportListener"/>
+  </listeners>
+  <test parallel="none" name="PIM Page Test (failed)">
+    <classes>
+      <class name="com.TestLayer.PIMPageTest">
+        <methods>
+          <include name="validateHomePageTitle"/>
+          <include name="validateHomePagePIMPage"/>
+          <include name="validateHomePageUrl"/>
+          <include name="validateUserandDelete"/>
+          <include name="validateCreateNewUserFunctionality"/>
+          <include name="validateHomePagelogo"/>
+          <include name="validateJobDetailFunctionality"/>
+          <include name="validateMorePersonalInformation"/>
+          <include name="loginFunctionality"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.TestLayer.PIMPageTest -->
+    </classes>
+  </test> <!-- PIM Page Test (failed) -->
+</suite> <!-- Failed suite [Orange HRM Test ] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.TestLayer.HomePageTest">
+        <methods>
+          <include name="validateUrl"/>
+          <include name="validateleavePage"/>
+          <include name="validateLogin"/>
+          <include name="validateMyInfoPage"/>
+          <include name="validateLogo"/>
+          <include name="validateAdminPage"/>
+          <include name="validatePimPage"/>
+          <include name="validateTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.TestLayer.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
